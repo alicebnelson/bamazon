@@ -1,0 +1,115 @@
+<?xml version="1.0"?>
+
+<!--
+-
+- Sequel Pro XML dump
+- Version 4541
+-
+- http://www.sequelpro.com/
+- https://github.com/sequelpro/sequelpro
+-
+- Host: 127.0.0.1 (MySQL 5.6.35)
+- Database: bamazon_db
+- Generation Time Time: 2018-02-01 22:41:33 +0000
+-
+-->
+
+<mysqldump xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<database name="bamazon_db">
+
+	<table_structure name="products">
+		<field field="item_id" type="int(11)" null="NO" key="PRI" default="<null>" extra="auto_increment" />
+		<field field="product_name" type="varchar(100)" null="NO" key="" default="<null>" extra="" />
+		<field field="department_name" type="varchar(100)" null="NO" key="" default="<null>" extra="" />
+		<field field="price" type="decimal(10,2)" null="YES" key="" default="<null>" extra="" />
+		<field field="stock_quantity" type="int(11)" null="NO" key="" default="<null>" extra="" />
+
+		<options name="products" engine="InnoDB" version="10" row_format="Compact" rows="10" avg_row_length="1638" data_length="16384" max_data_length="0" index_length="0" data_free="0" create_time="2018-01-28 12:27:29" update_time="<null>" collation="utf8_general_ci" create_options="" comment="" />
+	</table_structure>
+
+	<table_data name="products">
+
+	<row>
+		<field name="item_id">1</field>
+		<field name="product_name">mini black cat</field>
+		<field name="department_name">toy</field>
+		<field name="price">13.45</field>
+		<field name="stock_quantity">49</field>
+	</row>
+
+	<row>
+		<field name="item_id">2</field>
+		<field name="product_name">jumbo cat nip</field>
+		<field name="department_name">garden</field>
+		<field name="price">5.00</field>
+		<field name="stock_quantity">4</field>
+	</row>
+
+	<row>
+		<field name="item_id">3</field>
+		<field name="product_name">milk</field>
+		<field name="department_name">grocery</field>
+		<field name="price">3.27</field>
+		<field name="stock_quantity">37</field>
+	</row>
+
+	<row>
+		<field name="item_id">4</field>
+		<field name="product_name">cat carrier</field>
+		<field name="department_name">pet</field>
+		<field name="price">22.03</field>
+		<field name="stock_quantity">7</field>
+	</row>
+
+	<row>
+		<field name="item_id">5</field>
+		<field name="product_name">crinkle ball</field>
+		<field name="department_name">toy</field>
+		<field name="price">0.50</field>
+		<field name="stock_quantity">180</field>
+	</row>
+
+	<row>
+		<field name="item_id">6</field>
+		<field name="product_name">string</field>
+		<field name="department_name">crafts</field>
+		<field name="price">4.89</field>
+		<field name="stock_quantity">79</field>
+	</row>
+
+	<row>
+		<field name="item_id">7</field>
+		<field name="product_name">food bowl</field>
+		<field name="department_name">pet</field>
+		<field name="price">7.32</field>
+		<field name="stock_quantity">12</field>
+	</row>
+
+	<row>
+		<field name="item_id">8</field>
+		<field name="product_name">floor cushion</field>
+		<field name="department_name">home</field>
+		<field name="price">44.55</field>
+		<field name="stock_quantity">5</field>
+	</row>
+
+	<row>
+		<field name="item_id">9</field>
+		<field name="product_name">cat condo</field>
+		<field name="department_name">pet</field>
+		<field name="price">98.23</field>
+		<field name="stock_quantity">1</field>
+	</row>
+
+	<row>
+		<field name="item_id">10</field>
+		<field name="product_name">robotic litter box</field>
+		<field name="department_name">pet</field>
+		<field name="price">123.70</field>
+		<field name="stock_quantity">1</field>
+	</row>
+
+	</table_data>
+
+</database>
+</mysqldump>
